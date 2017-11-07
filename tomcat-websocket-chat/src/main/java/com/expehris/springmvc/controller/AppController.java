@@ -251,7 +251,7 @@ public class AppController {
 		userService.saveUser(user);
 		
 		model.addAttribute("user", user);
-		model.addAttribute("success", "L'employé " + user.getFirstName() + "  "+ user.getLastName() + " est enregistré avec succès.");
+		model.addAttribute("success", "L'employÃ© " + user.getFirstName() + "  "+ user.getLastName() + " est enregistrÃ© avec succÃ¨s.");
 		//return "success";
 		return "registrationsuccess";
 	}
@@ -332,7 +332,7 @@ public class AppController {
 
 		userService.updateUser(user);
 
-		model.addAttribute("success", "La modification de " + user.getFirstName() + " "+ user.getLastName() + " est effectuée avec succès!");
+		model.addAttribute("success", "La modification de " + user.getFirstName() + " "+ user.getLastName() + " est effectuÃ©e avec succÃ¨s!");
 		return "registrationsuccess";
 	}
 
@@ -498,17 +498,17 @@ public class AppController {
 	private LinkedList<String> getListMois(){
 	    LinkedList<String> list = new LinkedList<String>();
 	    list.add("Janvier");		
-		list.add("Février");	
+		list.add("FÃ©vrier");	
 		list.add("Mars");	
 		list.add("Avril");	
 		list.add("Mai");
 		list.add("Juin");		
 		list.add("Juillet");
-		list.add("Août");		
+		list.add("AoÃ»t");		
 		list.add("Septembre");	
 		list.add("Octobre");	
 		list.add("Novembre");	
-		list.add("Décembre");
+		list.add("DÃ©cembre");
 	
 	    return list;
 	}
@@ -901,7 +901,7 @@ public class AppController {
 		comptableService.saveComptable(user);
 		
 		model.addAttribute("user", user);
-		model.addAttribute("success", "Le comptable " + user.getPrenom() +" "+ user.getNom() + " est enregistré avec succès.");
+		model.addAttribute("success", "Le comptable " + user.getPrenom() +" "+ user.getNom() + " est enregistrÃ© avec succÃ¨s.");
 		//return "success";
 		return "registrationsuccesscompta";
 	}
@@ -952,7 +952,7 @@ public class AppController {
 
 		comptableService.updateComptable(user);
 
-		model.addAttribute("success", "La modification de " + user.getNom() + " "+ user.getPrenom() + " est effectuée avec succès !");
+		model.addAttribute("success", "La modification de " + user.getNom() + " "+ user.getPrenom() + " est effectuÃ©e avec succÃ¨s !");
 		return "registrationsuccesscompta";
 	}
 
@@ -1041,7 +1041,7 @@ public class AppController {
 		employeurService.saveEmployeur(user);
 		
 		model.addAttribute("user", user);
-		model.addAttribute("success", "L'employeur " + user.getPrenom() + " "+ user.getNom() + " est enregistré avec succès.");
+		model.addAttribute("success", "L'employeur " + user.getPrenom() + " "+ user.getNom() + " est enregistrÃ© avec succÃ¨s.");
 		//return "success";
 		return "registrationsuccessempl";
 	}
@@ -1093,7 +1093,7 @@ public class AppController {
 
 		employeurService.updateEmployeur(user);
 
-		model.addAttribute("success", "La modification de " + user.getNom() + " "+ user.getPrenom() + " est effectuée avec succès !");
+		model.addAttribute("success", "La modification de " + user.getNom() + " "+ user.getPrenom() + " est effectuÃ©e avec succÃ¨s !");
 		return "registrationsuccessempl";
 	}
 
