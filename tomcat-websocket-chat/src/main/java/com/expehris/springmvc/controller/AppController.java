@@ -253,6 +253,7 @@ public class AppController {
 		model.addAttribute("user", user);
 		model.addAttribute("success", "L'employé " + user.getFirstName() + "  "+ user.getLastName() + " est enregistré avec succès.");
 		//return "success";
+		// hhhhhhhhh
 		return "registrationsuccess";
 	}
 
