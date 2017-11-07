@@ -498,7 +498,7 @@ public class AppController {
 	private LinkedList<String> getListMois(){
 	    LinkedList<String> list = new LinkedList<String>();
 	    list.add("Janvier");		
-		list.add("Février");	
+		list.add("Fevrier");	
 		list.add("Mars");	
 		list.add("Avril");	
 		list.add("Mai");
@@ -507,8 +507,8 @@ public class AppController {
 		list.add("Aout");		
 		list.add("Septembre");	
 		list.add("Octobre");	
-		list.add("Nouvembre");	
-		list.add("Décembre");
+		list.add("Novembre");	
+		list.add("Decembre");
 	
 	    return list;
 	}
