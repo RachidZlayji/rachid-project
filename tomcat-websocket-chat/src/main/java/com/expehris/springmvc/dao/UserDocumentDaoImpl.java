@@ -77,8 +77,8 @@ public class UserDocumentDaoImpl extends AbstractDao<Integer, UserDocument> impl
 		doc = findBulletin(login, annee, "Juillet", typeDocument);		
 		doc.setMois("Juillet");
 		listBulletin.add(doc);
-		doc = findBulletin(login, annee, "Aout", typeDocument);		
-		doc.setMois("Aout");
+		doc = findBulletin(login, annee, "Août", typeDocument);		
+		doc.setMois("Août");
 		listBulletin.add(doc);
 		doc = findBulletin(login, annee, "Septembre", typeDocument);		
 		doc.setMois("Septembre");
@@ -86,8 +86,8 @@ public class UserDocumentDaoImpl extends AbstractDao<Integer, UserDocument> impl
 		doc = findBulletin(login, annee, "Octobre", typeDocument);		
 		doc.setMois("Octobre");
 		listBulletin.add(doc);
-		doc = findBulletin(login, annee, "Nouvembre", typeDocument);		
-		doc.setMois("Nouvembre");
+		doc = findBulletin(login, annee, "Novembre", typeDocument);		
+		doc.setMois("Novembre");
 		listBulletin.add(doc);
 		doc = findBulletin(login, annee, "Décembre", typeDocument);		
 		doc.setMois("Décembre");
