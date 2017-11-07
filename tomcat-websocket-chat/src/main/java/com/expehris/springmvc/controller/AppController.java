@@ -251,7 +251,7 @@ public class AppController {
 		userService.saveUser(user);
 		
 		model.addAttribute("user", user);
-		model.addAttribute("success", "L'employé " + user.getFirstName() + "  "+ user.getLastName() + " est enregistré avec succès");
+		model.addAttribute("success", "L'employé " + user.getFirstName() + "  "+ user.getLastName() + " est enregistré avec succès.");
 		//return "success";
 		return "registrationsuccess";
 	}
@@ -332,7 +332,7 @@ public class AppController {
 
 		userService.updateUser(user);
 
-		model.addAttribute("success", "La modification de " + user.getFirstName() + " "+ user.getLastName() + " est effectuée!");
+		model.addAttribute("success", "La modification de " + user.getFirstName() + " "+ user.getLastName() + " est effectuée avec succès!");
 		return "registrationsuccess";
 	}
 
@@ -901,7 +901,7 @@ public class AppController {
 		comptableService.saveComptable(user);
 		
 		model.addAttribute("user", user);
-		model.addAttribute("success", "Le comptable " + user.getPrenom() +" "+ user.getNom() + " est enregistré avec succès");
+		model.addAttribute("success", "Le comptable " + user.getPrenom() +" "+ user.getNom() + " est enregistré avec succès.");
 		//return "success";
 		return "registrationsuccesscompta";
 	}
@@ -952,7 +952,7 @@ public class AppController {
 
 		comptableService.updateComptable(user);
 
-		model.addAttribute("success", "La modification de " + user.getNom() + " "+ user.getPrenom() + " est effectuée !");
+		model.addAttribute("success", "La modification de " + user.getNom() + " "+ user.getPrenom() + " est effectuée avec succès !");
 		return "registrationsuccesscompta";
 	}
 
@@ -1041,7 +1041,7 @@ public class AppController {
 		employeurService.saveEmployeur(user);
 		
 		model.addAttribute("user", user);
-		model.addAttribute("success", "L'employeur " + user.getPrenom() + " "+ user.getNom() + " est enregistré avec succès");
+		model.addAttribute("success", "L'employeur " + user.getPrenom() + " "+ user.getNom() + " est enregistré avec succès.");
 		//return "success";
 		return "registrationsuccessempl";
 	}
@@ -1093,7 +1093,7 @@ public class AppController {
 
 		employeurService.updateEmployeur(user);
 
-		model.addAttribute("success", "La modification de " + user.getNom() + " "+ user.getPrenom() + " est effectuée !");
+		model.addAttribute("success", "La modification de " + user.getNom() + " "+ user.getPrenom() + " est effectuée avec succès !");
 		return "registrationsuccessempl";
 	}
 

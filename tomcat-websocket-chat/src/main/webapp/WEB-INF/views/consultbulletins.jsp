@@ -50,18 +50,18 @@
 			      		<tr style=" background-color: rgba(94, 227, 229,0.5)">
 					        <th id="myTable th">Nom</th>
 					        <th id="myTable th">Prénom</th>
-					        <th id="myTable th">JAN</th>
-					        <th id="myTable th">FÉV</th>
-					        <th id="myTable th">MAR</th>
-					        <th id="myTable th">AVR</th>
-					        <th id="myTable th">MAI</th>
-					        <th id="myTable th">JUN</th>
-					        <th id="myTable th">JUL</th>
-					        <th id="myTable th">AOÛ</th>
-					        <th id="myTable th">SEP</th>
-					        <th id="myTable th">OCT</th>
-					        <th id="myTable th">NOV</th>
-					        <th id="myTable th">DÉC</th>
+					        <th style="text-align: center;" id="myTable th">JAN</th>
+					        <th style="text-align: center;" id="myTable th">FÉV</th>
+					        <th style="text-align: center;" id="myTable th">MAR</th>
+					        <th style="text-align: center;" id="myTable th">AVR</th>
+					        <th style="text-align: center;" id="myTable th">MAI</th>
+					        <th style="text-align: center;" id="myTable th">JUN</th>
+					        <th style="text-align: center;" id="myTable th">JUL</th>
+					        <th style="text-align: center;" id="myTable th">AOÛ</th>
+					        <th style="text-align: center;" id="myTable th">SEP</th>
+					        <th style="text-align: center;" id="myTable th">OCT</th>
+					        <th style="text-align: center;" id="myTable th">NOV</th>
+					        <th style="text-align: center;" id="myTable th">DÉC</th>
 <!-- 					        <th width="100"></th>
  -->						</tr>
 			    	</thead>
