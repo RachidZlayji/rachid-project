@@ -21,7 +21,7 @@
 	href='webjars/bootstrap/3.3.6/css/bootstrap.min.css'>
 
 <link href="<c:url value='/static/css/css1.css' />" rel="stylesheet"></link>
-<link rel="icon" href="/static/images/expehrislogo.ico" />
+<link href="<c:url value='/static/images/expehris.png' />" rel="icon" />
 
 <title>Login</title>
 </head>

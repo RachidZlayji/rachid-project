@@ -5,7 +5,7 @@
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link rel="icon" href="/static/images/expehrislogo.ico" />
+<link href="<c:url value='/static/images/expehris.png' />" rel="icon" />
 
 <title>Accès Admin</title>
 

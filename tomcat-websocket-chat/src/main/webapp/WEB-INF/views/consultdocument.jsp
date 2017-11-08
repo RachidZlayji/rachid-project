@@ -13,7 +13,7 @@
 
 
 
-<link rel="icon" href="/static/images/expehrislogo.ico" />
+<link href="<c:url value='/static/images/expehris.png' />" rel="icon" />
 
 <title>Consulter Documents</title>
 <link rel='stylesheet'

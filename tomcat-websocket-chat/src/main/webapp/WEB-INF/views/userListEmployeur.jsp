@@ -8,7 +8,7 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" href="/static/images/expehrislogo.ico" />
+<link href="<c:url value='/static/images/expehris.png' />" rel="icon" />
 
 <title>Accès Employeur</title>
 <link rel='stylesheet'

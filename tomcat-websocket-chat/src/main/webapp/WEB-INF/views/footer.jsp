@@ -4,7 +4,7 @@
 <html>
 
 <head>
-<link rel="icon" href="/static/images/expehrislogo.ico" />
+<link href="<c:url value='/static/images/expehris.png' />" rel="icon" />
 
 <title>Footer with Button and Logo</title>
 <meta charset="UTF-8">
